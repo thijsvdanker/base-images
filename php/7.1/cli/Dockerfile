@@ -2,7 +2,7 @@
 # PHPDocker.io PHP 7.1 / CLI image #
 ####################################
 
-FROM ubuntu:xenial
+FROM ubuntu:16.04
 
 # Fixes some weird terminal issues such as broken clear / CTRL+L
 ENV TERM=linux
